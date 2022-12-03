@@ -5,7 +5,7 @@ pandas
 datetime 
 seaborn
 openpyxl 
-st_aggrid 
+stremlit.st_aggrid 
 matplotlib.pyplot
 sqlalchemy   
 scipy
