@@ -18,11 +18,11 @@ psycopg2-binary==2.9.5
 #ssl
 pdfkit
 jinja2
-MIMEAudio
-MIMEBase
-MIMEImage
-MIMEMultipart
-MIMEText
+#MIMEAudio
+#MIMEBase
+#MIMEImage
+#MIMEMultipart
+#MIMEText
 Deta
 streamlit.components.v1
 streamlit-aggrid==0.2.3.post2
