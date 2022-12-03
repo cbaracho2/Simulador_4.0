@@ -25,11 +25,11 @@ async-generator==1.10
 async-timeout==4.0.2
 attrs==22.1.0
 autograd==1.4
-azure-common==1.1.28
-azure-core==1.25.1
-azure-identity==1.11.0
-azure-mgmt-compute==28.0.0
-azure-mgmt-core==1.3.2
+#azure-common==1.1.28
+#azure-core==1.25.1
+#azure-identity==1.11.0
+#azure-mgmt-compute==28.0.0
+#azure-mgmt-core==1.3.2
 Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 beautifulsoup4==4.11.1
@@ -54,21 +54,21 @@ chardet==3.0.4
 charset-normalizer==2.1.1
 clarifai==2.6.2
 click @ file:///D:/bld/click_1651215332191/work
-click-log==0.4.0
-cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
+#click-log==0.4.0
+#cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
 cma==3.2.2
 colorama==0.4.5
 commonmark==0.9.1
 compressed-rtf==1.0.6
 configparser==3.8.1
 Consulta-Correios==1.0.1
-cryptography @ file:///D:/bld/cryptography_1657174142266/work
+#cryptography @ file:///D:/bld/cryptography_1657174142266/work
 cssselect==1.1.0
 curlify==2.2.1
 cv2-plt-imshow==0.0.1
 cvxopt==1.3.0
 cvxpy==1.2.1
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+#cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
 cymem==2.0.6
 Cython==0.29.32
 cytoolz==0.11.0
