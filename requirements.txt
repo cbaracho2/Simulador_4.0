@@ -434,20 +434,20 @@ tensorflow-estimator==2.10.0
 tensorflow-io-gcs-filesystem==0.27.0
 termcolor==2.0.1
 terminado==0.15.0
-testpath @ file:///C:/Windows/TEMP/abs_23c7fa33-cbb9-46dc-b7c5-590c38e2de3d4bmbngal/croots/recipe/testpath_1655908553202/work
+#testpath @ file:///C:/Windows/TEMP/abs_23c7fa33-cbb9-46dc-b7c5-590c38e2de3d4bmbngal/croots/recipe/testpath_1655908553202/work
 textract==1.6.5
 texttable==1.6.4
 themetweaker.themeswitcher==1.0
 thinc==8.1.0
 threadpoolctl==3.1.0
-tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
+#tifffile @ file:///tmp/build/80754af9/tifffile_1627275862826/work
 tika==1.24
 tinycss2==1.1.1
 tokenizers==0.12.1
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.10.2
-toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
+#toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
 torch==1.12.1
 torchvision==0.13.1
 tornado==6.2
@@ -468,7 +468,7 @@ tzdata==2022.3
 tzlocal==4.2
 ua-parser==0.15.0
 Unidecode==1.3.4
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1658789158161/work
+#urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1658789158161/work
 utils==1.0.1
 uvicorn==0.18.3
 validators==0.20.0
@@ -482,13 +482,13 @@ wasabi==0.10.1
 watchdog==2.1.9
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webdriver-manager==3.8.3
-webdriverdownloader==1.1.0.3
+#webdriverdownloader==1.1.0.3
 webencodings==0.5.1
-websocket-client @ file:///C:/ci_310/websocket-client_1642093970919/work
+#websocket-client @ file:///C:/ci_310/websocket-client_1642093970919/work
 websockets==9.1
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1658843645882/work
+#Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1658843645882/work
 widgetsnbextension==3.6.1
-win-inet-pton @ file:///D:/bld/win_inet_pton_1648771897787/work
+#win-inet-pton @ file:///D:/bld/win_inet_pton_1648771897787/work
 wincertstore==0.2
 wordcloud==1.8.2.2
 wrapt==1.14.1
@@ -499,5 +499,4 @@ xlwings==0.27.14
 xlwt==1.3.0
 yarl==1.8.1
 zeep==4.1.0
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1649012893348/work
-pip==22.3.1
+#zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1649012893348/work
