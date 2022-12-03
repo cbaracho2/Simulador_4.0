@@ -9,17 +9,17 @@ altair-data-server==0.4.1
 altair-saver==0.5.0
 altair-viewer==0.4.0
 ansi2html==1.8.0
-anyio @ file:///C:/ci/anyio_1644481856696/work/dist
+#anyio @ file:///C:/ci/anyio_1644481856696/work/dist
 api-display-purposes==0.0.3
 appdirs==1.4.4
 APScheduler==3.6.3
 apyori==1.1.2
 argcomplete==1.10.3
-argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
-argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644569876605/work
+#argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+#argon2-cffi-bindings @ file:///C:/ci/argon2-cffi-bindings_1644569876605/work
 aspose-cells==22.9.0
-astropy @ file:///C:/ci/astropy_1657719642921/work
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+#astropy @ file:///C:/ci/astropy_1657719642921/work
+#asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
 astunparse==1.6.3
 async-generator==1.10
 async-timeout==4.0.2
@@ -39,10 +39,10 @@ blip-sdk==1.0.4
 blis==0.7.8
 boto3==1.24.67
 botocore==1.27.67
-Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
+#Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
 branca==0.5.0
-Brotli @ file:///D:/bld/brotli-split_1648883782420/work
-brotlipy @ file:///D:/bld/brotlipy_1648854347500/work
+#Brotli @ file:///D:/bld/brotli-split_1648883782420/work
+#brotlipy @ file:///D:/bld/brotlipy_1648854347500/work
 bs4==0.0.1
 cached-property==1.5.2
 cachelib==0.9.0
