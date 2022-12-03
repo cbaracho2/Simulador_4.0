@@ -824,8 +824,8 @@ with fila_cx:
         pass    
  
  #C:\Users\italo\wkhtmltox\bin
-path_wkthmltopdf = 'C://Users//italo//wkhtmltox//bin//wkhtmltopdf.exe'
-config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)    
+#path_wkthmltopdf = 'C://Users//italo//wkhtmltox//bin//wkhtmltopdf.exe'
+#config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)    
     
 c1, c2, c3, c4 = st.columns((2, 2, 2, 10))
 with c1:
@@ -833,13 +833,13 @@ with c1:
         bt_0001 = st.button("ENVIAR SIMULAÇÃO")
     if bt_0001:
         salvar_bd(df_envio_bd, db)
-        env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
-        template = env.get_template("relatorio.html")
-        html = template.render(Emp=EMP,date=date.today().strftime("%B %d, %Y"),)
-        pdf = pdfkit.from_string(html,configuration=config)
+       # env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
+      #  template = env.get_template("relatorio.html")
+      #  html = template.render(Emp=EMP,date=date.today().strftime("%B %d, %Y"),)
+       # pdf = pdfkit.from_string(html,configuration=config)
         st.balloons()
         st.success("🎉 Liberação enviada com sucesso!")
-        st.download_button("⬇️ Download PDF",data=pdf,file_name="Liberacao.pdf",mime="application/octet-stream")
+        #st.download_button("⬇️ Download PDF",data=pdf,file_name="Liberacao.pdf",mime="application/octet-stream")
 with c2:
     with st.expander("ID | BUSCA"):
         PROC = st.text_input("ID_SIMULAÇÃO")      
