@@ -5,7 +5,7 @@ pandas
 datetime 
 seaborn
 openpyxl  
-matplotlib.pyplot
+matplotlib==3.5.2
 sqlalchemy   
 scipy
 mysql.connector
@@ -25,3 +25,4 @@ MIMEMultipart
 MIMEText
 Deta
 streamlit.components.v1
+streamlit-aggrid==0.2.3.post2
