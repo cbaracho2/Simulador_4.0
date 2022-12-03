@@ -14,8 +14,8 @@ plotly
 psycopg2-binary==2.9.5
 #warnings
 #pickle
-smtplib
-ssl
+#smtplib
+#ssl
 pdfkit
 jinja2
 MIMEAudio
