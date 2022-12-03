@@ -19,8 +19,8 @@ import pickle
 import smtplib, ssl
 from streamlit.components.v1 import iframe
 import pdfkit
-path_wkthmltopdf = 'C://Users//italo//wkhtmltox//bin//wkhtmltopdf.exe'
-config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)    
+#path_wkthmltopdf = 'C://Users//italo//wkhtmltox//bin//wkhtmltopdf.exe'
+#config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)    
 from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoader
 from email import encoders
 from email.mime.audio import MIMEAudio
