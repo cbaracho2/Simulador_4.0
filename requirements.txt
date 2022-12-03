@@ -13,7 +13,7 @@ plotly.express
 plotly
 psycopg2-binary==2.9.5
 #warnings
-pickle
+#pickle
 smtplib
 ssl
 pdfkit
