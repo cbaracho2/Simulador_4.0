@@ -12,7 +12,7 @@ mysql.connector
 plotly.express
 plotly
 psycopg2-binary==2.9.5
-warnings
+#warnings
 pickle
 smtplib
 ssl
