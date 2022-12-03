@@ -1,7 +1,6 @@
 pip==22.0.3
 streamlit
 numpy
-time
 pandas
 datetime 
 seaborn
