@@ -6,7 +6,7 @@ from datetime import datetime, date
 import seaborn as sns
 from openpyxl import Workbook
 from st_aggrid import AgGrid, DataReturnMode, GridUpdateMode, GridOptionsBuilder, JsCode
-from tqdm import tqdm
+#from tqdm import tqdm
 import matplotlib.pyplot as plt
 import sqlalchemy   
 from scipy import stats
