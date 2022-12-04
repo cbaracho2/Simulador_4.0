@@ -18,9 +18,7 @@ import warnings
 import pickle
 import smtplib, ssl
 from streamlit.components.v1 import iframe
-import pdfkit
-#path_wkthmltopdf = 'C://Users//italo//wkhtmltox//bin//wkhtmltopdf.exe'
-#config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)    
+import pdfkit    
 from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoader
 from email import encoders
 from email.mime.audio import MIMEAudio
@@ -779,9 +777,7 @@ def salvar_bd(df, bd):
     df1 = df.astype(str)
     dic_emp = json.loads(json.dumps(list(df1.T.to_dict().values())))
     n=0
-    pbar = tqdm(total = len(dic_emp), position=0, leave = True)
     for i in range(0,len(dic_emp)):
-        pbar.update()
         bd.put(dic_emp[n])
         n+=1
     return print("Script Finalizado")
